@@ -1,0 +1,42 @@
+dLevels format: 
+
+Level name convention: levelX.txt
+        X represents the number of level
+
+int type, int position in x, int position in y
+
+type is represented by int number:
+    type    values  represents
+    
+    enemies
+            2       Goomba
+            3       KoopaTroopa
+            4       Piranha Plant
+            5       Lakitu
+            6       Spiny
+            7       Buzzy Beetle
+
+    power ups with question block
+            10      SuperMushroom
+            11      FireFlower
+            12      Star
+            13      GreenMushroom
+            14      Coin
+
+    power up without question block
+            15      Coin
+
+    platforms   
+            21      SolidBlock
+            22      BrickBlock
+            23      Void
+            24      Flag
+            25      Mast
+            26      MastEnd
+            27      PipeBottomLeft
+            28      PipeBottomRight
+            29      PipeTopLeft
+            30      PipeTopRight
+    projetiles
+            31      Fireball
+
